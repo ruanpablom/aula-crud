@@ -24,7 +24,7 @@ export function TodoItem({ todo, onEdit, onDelete }: TodoItemProps) {
       key={todo.id}
     >
       <p className="w-1/12">{todo.id}</p>
-      <div className="w-9/12">
+      <div className="w-7/12 md:w-9/12">
         {isEditing ? (
           <TextInput
             className="w-full"
@@ -36,7 +36,7 @@ export function TodoItem({ todo, onEdit, onDelete }: TodoItemProps) {
         )}
       </div>
 
-      <div className="w-2/12 flex justify-end gap-4">
+      <div className="w-4/12 md:w-2/12 flex justify-end gap-4">
         {isEditing ? (
           <button className="rounded bg-emerald-400 p-2" onClick={onSave}>
             <MdSave />
