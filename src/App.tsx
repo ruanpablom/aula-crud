@@ -21,21 +21,21 @@ function App() {
             <div className="flex  gap-2 mt-14">
               <a
                 className="text-white underline"
-                href="/assets/aula-crud.pdf"
+                href="/aula-crud/assets/aula-crud.pdf"
                 download
               >
                 Aula Crud PDF
               </a>
               <a
                 className="text-white underline"
-                href="/assets/aula-crud.pptx"
+                href="/aula-crud/assets/aula-crud.pptx"
                 download
               >
                 Aula Crud PPTX
               </a>
               <a
                 className="text-white underline"
-                href="/assets/plano-de-aula.pdf"
+                href="/aula-crud/assets/plano-de-aula.pdf"
                 download
               >
                 Plano de Aula
