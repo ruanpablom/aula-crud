@@ -18,6 +18,29 @@ function App() {
           </header>
           <main className="mt-4">
             <TodoList todos={todos} setTodos={setTodos} />
+            <div className="flex  gap-2 mt-14">
+              <a
+                className="text-white underline"
+                href="/assets/aula-crud.pdf"
+                download
+              >
+                Aula Crud PDF
+              </a>
+              <a
+                className="text-white underline"
+                href="/assets/aula-crud.pptx"
+                download
+              >
+                Aula Crud PPTX
+              </a>
+              <a
+                className="text-white underline"
+                href="/assets/plano-de-aula.pdf"
+                download
+              >
+                Plano de Aula
+              </a>
+            </div>
           </main>
         </div>
       </div>
