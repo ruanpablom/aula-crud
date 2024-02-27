@@ -14,7 +14,7 @@ function App() {
       <div className="dark h-screen flex flex-col items-center bg-slate-700 p-4">
         <div className="max-w-3xl w-full ">
           <header className="bg-slate-800 text-white p-4">
-            <h1 className="text-2xl font-bold">Aula CRUD</h1>
+            <h1 className="text-2xl font-bold">Aula CRUD SENAC</h1>
           </header>
           <main className="mt-4">
             <TodoList todos={todos} setTodos={setTodos} />
